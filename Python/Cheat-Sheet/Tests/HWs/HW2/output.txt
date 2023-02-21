@@ -1,0 +1,5 @@
+123601057072 is a valid 10-digits barcode
+1ab601057072 is an invalid 10-digits barcode
+172601055072 is an invalid 10-digits barcode
+12345 is an invalid 10-digits barcode
+753182953427 is a valid 10-digits barcode

@@ -1,0 +1,20 @@
+Number of Equations : 4
+EQUATIONS
+----------
++3.50x1 +2.77x2 -0.76x3 +1.80x4 = +7.31
+-1.80x1 +2.68x2 +3.44x3 -0.09x4 = +4.23
++0.27x1 +5.07x2 +6.90x3 +1.61x4 = +13.85
++1.71x1 +5.45x2 +2.68x3 +1.71x4 = +11.55
+SOLUTION:
+----------
+x1 = 1.000000000000083
+x2 = 1.0000000000000173
+x3 = 1.000000000000025
+x4 = 0.9999999999998221
+
+Check if the solution satisfies the equations:
+Equation   1  : Error is 0.0
+Equation   2  : Error is -8.881784197001252e-16
+Equation   3  : Error is -1.7763568394002505e-15
+Equation   4  : Error is -1.7763568394002505e-15
+SOLUTION IS CORRECT WITH A TOTAL ERROR OF -4.440892098500626e-15

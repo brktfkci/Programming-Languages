@@ -1,0 +1,6 @@
+The roots of the equation 2x^2 + 3x + 1 are -2.0 -4.0 
+The roots of the equation 8x^2 + 7x + -3 are 20.166378315169183 -76.16637831516918 
+Equation is not valid !
+Equation is not valid !
+The roots of the equation 0x^2 + 4x + 3 are -0.75 None 
+The roots of the equation -1x^2 + 7x + 10 are -1.2169905660283016 8.2169905660283 
