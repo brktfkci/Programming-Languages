@@ -1,0 +1,23 @@
+NET "clk" LOC = B8;
+NET "reset" LOC = A7;
+NET "rx" LOC = B2;
+NET "tx" LOC = A3;
+NET "rx_data_out[0]" LOC = M5;
+NET "rx_data_out[1]" LOC = M11;
+NET "rx_data_out[2]" LOC = P7;
+NET "rx_data_out[3]" LOC = P6;
+NET "rx_data_out[4]" LOC = N5;
+NET "rx_data_out[5]" LOC = N4;
+NET "rx_data_out[6]" LOC = P4;
+NET "rx_data_out[7]" LOC = G1;
+
+NET "sw_transmit" LOC = G12;
+
+NET "sw_data_in[0]" LOC = P11;
+NET "sw_data_in[1]" LOC = L3;
+NET "sw_data_in[2]" LOC = K3;
+NET "sw_data_in[3]" LOC = B4;
+NET "sw_data_in[4]" LOC = G3;
+NET "sw_data_in[5]" LOC = F3;
+NET "sw_data_in[6]" LOC = E2;
+NET "sw_data_in[7]" LOC = N3;

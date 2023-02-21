@@ -1,0 +1,28 @@
+NET "clk" LOC = B8;
+NET "rst" LOC = A7;
+NET "rx"  LOC = B2;
+NET "tx"  LOC = A3;
+
+NET "reset" LOC = L14;
+NET "freezeFlag" LOC = H12;
+NET "debug[0]" LOC = N14;
+NET "debug[1]" LOC = N11;
+NET "debug[2]" LOC = P12;
+NET "debug[3]" LOC = L13;
+NET "debug[4]" LOC = M12;
+NET "debug[5]" LOC = N13;
+
+NET "addrDebug[0]" LOC = M5;
+NET "addrDebug[1]" LOC = M11;
+NET "addrDebug[2]" LOC = P7;
+NET "addrDebug[3]" LOC = P6;
+NET "addrDebug[4]" LOC = N5;
+NET "addrDebug[5]" LOC = N4;
+NET "addrDebug[6]" LOC = P4;
+NET "addrDebug[7]" LOC = G1;
+
+
+NET "anode[0]" LOC = F12;
+NET "anode[1]" LOC = J12;
+NET "anode[2]" LOC = M13;
+NET "anode[3]" LOC = K14;

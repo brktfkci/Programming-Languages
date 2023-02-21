@@ -1,0 +1,11 @@
+NET "clk" LOC = B8;
+NET "rst" LOC = A7;
+
+NET "outPattern[0]" LOC = M5;
+NET "outPattern[1]" LOC = M11;
+NET "outPattern[2]" LOC = P7;
+NET "outPattern[3]" LOC = P6;
+NET "outPattern[4]" LOC = N5;
+NET "outPattern[5]" LOC = N4;
+NET "outPattern[6]" LOC = P4;
+NET "outPattern[7]" LOC = G1;

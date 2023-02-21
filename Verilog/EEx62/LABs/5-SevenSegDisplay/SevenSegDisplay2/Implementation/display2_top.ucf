@@ -1,0 +1,25 @@
+NET "clk" LOC = B8;
+NET "rst" LOC = G12;
+
+NET "dataIn[0]" LOC = P11;
+NET "dataIn[1]" LOC = L3;
+NET "dataIn[2]" LOC = K3;
+NET "dataIn[3]" LOC = B4;
+NET "dataIn[4]" LOC = G3;
+NET "dataIn[5]" LOC = F3;
+NET "dataIn[6]" LOC = E2;
+NET "dataIn[7]" LOC = N3;
+
+NET "sevenSeg[0]" LOC = N13;
+NET "sevenSeg[1]" LOC = M12;
+NET "sevenSeg[2]" LOC = L13;
+NET "sevenSeg[3]" LOC = P12;
+NET "sevenSeg[4]" LOC = N11;
+NET "sevenSeg[5]" LOC = N14;
+NET "sevenSeg[6]" LOC = H12;
+NET "sevenSeg[7]" LOC = L14;
+
+NET "anode[0]" LOC = F12;
+NET "anode[1]" LOC = J12;
+NET "anode[2]" LOC = M13;
+NET "anode[3]" LOC = K14;

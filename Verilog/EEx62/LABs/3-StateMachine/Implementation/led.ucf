@@ -1,0 +1,6 @@
+NET "clk" LOC = B8;
+NET "rst" LOC = G12;
+NET "btn" LOC = A7;
+NET "ledout[0]" LOC = N4;
+NET "ledout[1]" LOC = P4;
+NET "ledout[2]" LOC = G1;
