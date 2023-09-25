@@ -9,7 +9,7 @@ Return the maximum amount of water a container can store.
 
 **Notice** that you may not slant the container.
 
-![image](https://github.com/brktfkci/Programming-Languages/tree/main/Python/Algorithm-Analysis/Neetcode/02-TwoPointers/04-ContainerWithMostWater/img/img.png)
+![plot](./img/img.png)
 
 
 **Constraints:**

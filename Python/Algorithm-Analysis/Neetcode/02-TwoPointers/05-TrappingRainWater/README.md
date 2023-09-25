@@ -3,7 +3,7 @@
 ### Question
 Given `n` non-negative integers representing an elevation map where the width of each bar is `1`, compute how much water it can trap after raining.
 
-![image](https://github.com/brktfkci/Programming-Languages/tree/main/Python/Algorithm-Analysis/Neetcode/02-TwoPointers/05-TrappingRainWater/img/img.png)
+![plot](./img/img.png)
 
 **Constraints:**
 
