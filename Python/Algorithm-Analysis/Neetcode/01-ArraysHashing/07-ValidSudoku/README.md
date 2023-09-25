@@ -16,7 +16,7 @@ Determine if a `9 x 9` Sudoku board is valid. Only the filled cells need to be v
 
 - Only the filled cells need to be validated according to the mentioned rules.
 
-![alt text](https://github.com/brktfkci/Programming-Languages/tree/main/Python/Algorithm-Analysis/Neetcode/01-ArraysHashing/07-ValidSudoku/img/img.png)
+![plot](./img/img.png)
 
 
 **Constraints:**
