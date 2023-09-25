@@ -1,27 +1,28 @@
-## Contains Duplicate (Leetcode Question 217)
-
-***
+## Valid Sudoku (Leetcode Question 36)
 
 ### Question
-Given an integer array `nums`, return `true` if any value appears ***at least twice*** in the array, and return `false` if every element is distinct.
+Determine if a `9 x 9` Sudoku board is valid. Only the filled cells need to be validated **according to the following rules**:
 
-**Example 1:**
+1. Each row must contain the digits `1-9` without repetition.
 
-Input: nums = [1,2,3,1]
-Output: true
+2. Each column must contain the digits `1-9` without repetition.
 
-**Example 2:**
+3. Each of the nine `3 x 3` sub-boxes of the grid must contain the digits `1-9` without repetition.
 
-Input: nums = [1,2,3,4]
-Output: false
 
-**Example 3:**
+**Note**:
 
-Input: nums = [1,1,1,3,3,4,3,2,4,2]
-Output: true
+- A Sudoku board (partially filled) could be valid but is not necessarily solvable.
+
+- Only the filled cells need to be validated according to the mentioned rules.
+
+![alt text](https://github.com/brktfkci/Programming-Languages/tree/main/Python/Algorithm-Analysis/Neetcode/01-ArraysHashing/07-ValidSudoku/img/img.png)
+
 
 **Constraints:**
 
-- 1 <= nums.length <= 10^5
+- `board.length == 9`
 
-- -10^9 <= nums[i] <= 10^9
+- `board[i].length == 9`
+
+- `board[i][j]` is a digit `1-9` or `-`.

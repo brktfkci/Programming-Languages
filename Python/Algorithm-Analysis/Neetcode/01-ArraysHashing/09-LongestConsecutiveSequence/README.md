@@ -1,27 +1,26 @@
-## Contains Duplicate (Leetcode Question 217)
-
-***
+## Longest Consecutive Sequence (Leetcode Question 128)
 
 ### Question
-Given an integer array `nums`, return `true` if any value appears ***at least twice*** in the array, and return `false` if every element is distinct.
+Given an unsorted array of integers `nums`, return the length of the longest consecutive elements sequence.
+
+You must write an algorithm that runs in `O(n)` time.
 
 **Example 1:**
 
-Input: nums = [1,2,3,1]
-Output: true
+> **Input**: `nums = [100,4,200,1,3,2]`
+
+> **Output**: `4`
+
+> **Explanation**:  The longest consecutive elements sequence is `[1,2,3,4]`. Therefore its length is `4`.
 
 **Example 2:**
 
-Input: nums = [1,2,3,4]
-Output: false
+> **Input**: `nums = [0,3,7,2,5,8,4,6,0,1]`
 
-**Example 3:**
-
-Input: nums = [1,1,1,3,3,4,3,2,4,2]
-Output: true
+> **Output**: `9`
 
 **Constraints:**
 
-- 1 <= nums.length <= 10^5
+- `0 <= nums.length <= 10^5`
 
-- -10^9 <= nums[i] <= 10^9
+- `-10^9 <= nums[i] <= 10^9`

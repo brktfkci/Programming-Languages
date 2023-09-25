@@ -1,38 +1,32 @@
-# Two Sum
+## Group Anagrams (Leetcode Question 49)
 
-Given an array of integers `nums` and an integer `target`.
+### Question
+Given an array of strings `strs`, group the **anagrams** together. You can return the answer in **any order**.
 
-Return indicies of two numbers such that they add up to `target`.
-
-> * You may assume that each input would have **_exactly one solution_**, and you may not use the same element twice. 
-> * You can return the answer in any order.
+An **Anagram** is a word or phrase formed by rearranging the letters of a different word or phrase, typically using all the original letters exactly once.
 
 **Example 1:**
-<pre>
-<b>Input:</b> nums = [2,7,11,15], target = 9 
-<b>Output:</b> [0,1]
-<b>Explanation:</b> Because, nums[0] + nums[1] == 9, we return [0,1]
-</pre>
+
+> **Input**: `strs = ["eat","tea","tan","ate","nat","bat"]`
+
+> **Output**: `[["bat"],["nat","tan"],["ate","eat","tea"]]`
 
 **Example 2:**
-<pre>
-<b>Input:</b> nums = [3,2,4], target = 6 
-<b>Output:</b> [1,2]
-</pre>
+
+> **Input**: `strs = [""]`
+
+> **Output**: `[[""]]`
 
 **Example 3:**
-<pre>
-<b>Input:</b> nums = [3,3], target = 6 
-<b>Output:</b> [0,1]
-</pre>
+
+> **Input**: `strs = ["a"]`
+
+> **Output**: `[["a"]]`
 
 **Constraints:**
 
-* $2 \leq nums.length \leq 10^4$
-* $-10^9 \leq nums[i] \leq 10^9$
-* $-10^9 \leq target \leq 10^9$
-*  __Only one valid answer exists.__
+- `1 <= strs.length <= 10^4`
 
-**Follow-up:** Can you come up with an algorithm that is less than $0(n^2)$ time complexity?
+- `0 <= strs[i].length <= 100`
 
-
+- `strs[i]` consists of lowercase English letters.

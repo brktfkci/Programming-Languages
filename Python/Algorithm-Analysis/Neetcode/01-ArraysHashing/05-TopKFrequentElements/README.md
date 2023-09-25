@@ -1,27 +1,26 @@
-## Contains Duplicate (Leetcode Question 217)
-
-***
+## Top K Frequent Elements (Leetcode Question 347)
 
 ### Question
-Given an integer array `nums`, return `true` if any value appears ***at least twice*** in the array, and return `false` if every element is distinct.
+Given an integer array `nums` and an integer `k`, return the `k` most frequent elements. You may return the answer in `any order`.
 
 **Example 1:**
 
-Input: nums = [1,2,3,1]
-Output: true
+> **Input**: `nums = [1,1,1,2,2,3], k = 2`
+
+> **Output**: `[1,2]`
 
 **Example 2:**
 
-Input: nums = [1,2,3,4]
-Output: false
+> **Input**: `nums = [1], k = 1`
 
-**Example 3:**
-
-Input: nums = [1,1,1,3,3,4,3,2,4,2]
-Output: true
+> **Output**: `[1]`
 
 **Constraints:**
 
-- 1 <= nums.length <= 10^5
+- `1 <= nums.length <= 10^5`
 
-- -10^9 <= nums[i] <= 10^9
+- `-10^4 <= nums[i] <= 10^4`
+
+- `k` is in the range `[1, the number of unique elements in the array]`.
+
+- It is `guranteed` that the answer is `unique`.

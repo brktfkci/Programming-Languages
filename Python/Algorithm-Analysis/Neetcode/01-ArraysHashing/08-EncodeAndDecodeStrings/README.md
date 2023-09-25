@@ -1,27 +1,22 @@
-## Contains Duplicate (Leetcode Question 217)
-
-***
+## Encode and Decode Strings (Leetcode Question 659)
 
 ### Question
-Given an integer array `nums`, return `true` if any value appears ***at least twice*** in the array, and return `false` if every element is distinct.
+Design an algorithm to encode a list of strings to a string. The encoded string is then sent over the network and is decoded back to the original list of strings.
+
+Please implement `encode` and `decode`.
 
 **Example 1:**
 
-Input: nums = [1,2,3,1]
-Output: true
+> **Input**: `["leet","code","love","you"]`
+
+> **Output**: `["leet","code","love","you"]`
+
+> **Explanation**: One possible encode method is: `"leet:;code:;love:;you"`
 
 **Example 2:**
 
-Input: nums = [1,2,3,4]
-Output: false
+> **Input**: `["we", "say", ":", "yes"]`
 
-**Example 3:**
+> **Output**: `["we", "say", ":", "yes"]`
 
-Input: nums = [1,1,1,3,3,4,3,2,4,2]
-Output: true
-
-**Constraints:**
-
-- 1 <= nums.length <= 10^5
-
-- -10^9 <= nums[i] <= 10^9
+> **Explanation**: One possible encode method is: `"we:;say:;:::;yes"`
