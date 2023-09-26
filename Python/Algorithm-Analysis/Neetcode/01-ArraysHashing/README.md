@@ -1,4 +1,5 @@
 ## Arrays and Hashing Realated Questions from LeetCode
 
-The solution of the questions highly includes `Arrays` and `Hashing`.
+The solution to the questions highly includes using `Arrays` and `Hashing`.
+
 
