@@ -1,0 +1,211 @@
+Line #    Mem usage    Increment  Occurrences   Line Contents
+=============================================================
+    81  49.734375 MiB  49.734375 MiB           1   @profile(precision=6)
+    82                                         def main():   
+    83  49.785156 MiB   0.050781 MiB           1       drone = Drone('tcp:127.0.0.1:14550')
+    84  49.785156 MiB   0.000000 MiB           1       time.sleep(1)
+    85  49.800781 MiB   0.015625 MiB           1       drone.send_heartbeat()
+    86  49.804688 MiB   0.003906 MiB           1       time.sleep(1)
+    87  49.804688 MiB   0.000000 MiB           1       drone.send_heartbeat()
+    88  49.804688 MiB   0.000000 MiB           1       time.sleep(1)
+    89                                             
+    90                                             # For CPU profiling
+    91  49.804688 MiB   0.000000 MiB           1       profiler = cProfile.Profile()
+    92  49.808594 MiB   0.003906 MiB           1       profiler.enable()
+    93                                             
+    94  50.574219 MiB   0.765625 MiB           1       drone.send_spefic()
+    95                                         
+    96                                             # Stop CPU profiling
+    97  50.574219 MiB   0.000000 MiB           1       profiler.disable()
+    98  50.757812 MiB   0.183594 MiB           1       profiler.print_stats(sort='cumulative')
+
+Line #    Mem usage    Increment  Occurrences   Line Contents
+=============================================================
+    81  49.785156 MiB  49.785156 MiB           1   @profile(precision=6)
+    82                                         def main():   
+    83  49.835938 MiB   0.050781 MiB           1       drone = Drone('tcp:127.0.0.1:14550')
+    84  49.835938 MiB   0.000000 MiB           1       time.sleep(1)
+    85  49.851562 MiB   0.015625 MiB           1       drone.send_heartbeat()
+    86  49.855469 MiB   0.003906 MiB           1       time.sleep(1)
+    87  49.855469 MiB   0.000000 MiB           1       drone.send_heartbeat()
+    88  49.855469 MiB   0.000000 MiB           1       time.sleep(1)
+    89                                             
+    90                                             # For CPU profiling
+    91  49.855469 MiB   0.000000 MiB           1       profiler = cProfile.Profile()
+    92  49.859375 MiB   0.003906 MiB           1       profiler.enable()
+    93                                             
+    94  50.632812 MiB   0.773438 MiB           1       drone.send_spefic()
+    95                                         
+    96                                             # Stop CPU profiling
+    97  50.632812 MiB   0.000000 MiB           1       profiler.disable()
+    98  50.796875 MiB   0.164062 MiB           1       profiler.print_stats(sort='cumulative')
+
+Line #    Mem usage    Increment  Occurrences   Line Contents
+=============================================================
+    81  49.769531 MiB  49.769531 MiB           1   @profile(precision=6)
+    82                                         def main():   
+    83  49.820312 MiB   0.050781 MiB           1       drone = Drone('tcp:127.0.0.1:14550')
+    84  49.820312 MiB   0.000000 MiB           1       time.sleep(1)
+    85  49.835938 MiB   0.015625 MiB           1       drone.send_heartbeat()
+    86  49.839844 MiB   0.003906 MiB           1       time.sleep(1)
+    87  49.839844 MiB   0.000000 MiB           1       drone.send_heartbeat()
+    88  49.839844 MiB   0.000000 MiB           1       time.sleep(1)
+    89                                             
+    90                                             # For CPU profiling
+    91  49.839844 MiB   0.000000 MiB           1       profiler = cProfile.Profile()
+    92  49.843750 MiB   0.003906 MiB           1       profiler.enable()
+    93                                             
+    94  50.625000 MiB   0.781250 MiB           1       drone.send_spefic()
+    95                                         
+    96                                             # Stop CPU profiling
+    97  50.625000 MiB   0.000000 MiB           1       profiler.disable()
+    98  50.765625 MiB   0.140625 MiB           1       profiler.print_stats(sort='cumulative')
+
+Line #    Mem usage    Increment  Occurrences   Line Contents
+=============================================================
+    81  49.914062 MiB  49.914062 MiB           1   @profile(precision=6)
+    82                                         def main():   
+    83  49.964844 MiB   0.050781 MiB           1       drone = Drone('tcp:127.0.0.1:14550')
+    84  49.964844 MiB   0.000000 MiB           1       time.sleep(1)
+    85  49.980469 MiB   0.015625 MiB           1       drone.send_heartbeat()
+    86  49.984375 MiB   0.003906 MiB           1       time.sleep(1)
+    87  49.984375 MiB   0.000000 MiB           1       drone.send_heartbeat()
+    88  49.984375 MiB   0.000000 MiB           1       time.sleep(1)
+    89                                             
+    90                                             # For CPU profiling
+    91  49.984375 MiB   0.000000 MiB           1       profiler = cProfile.Profile()
+    92  49.988281 MiB   0.003906 MiB           1       profiler.enable()
+    93                                             
+    94  50.699219 MiB   0.710938 MiB           1       drone.send_spefic()
+    95                                         
+    96                                             # Stop CPU profiling
+    97  50.699219 MiB   0.000000 MiB           1       profiler.disable()
+    98  50.843750 MiB   0.144531 MiB           1       profiler.print_stats(sort='cumulative')
+
+Line #    Mem usage    Increment  Occurrences   Line Contents
+=============================================================
+    81  49.863281 MiB  49.863281 MiB           1   @profile(precision=6)
+    82                                         def main():   
+    83  49.914062 MiB   0.050781 MiB           1       drone = Drone('tcp:127.0.0.1:14550')
+    84  49.914062 MiB   0.000000 MiB           1       time.sleep(1)
+    85  49.929688 MiB   0.015625 MiB           1       drone.send_heartbeat()
+    86  49.933594 MiB   0.003906 MiB           1       time.sleep(1)
+    87  49.933594 MiB   0.000000 MiB           1       drone.send_heartbeat()
+    88  49.933594 MiB   0.000000 MiB           1       time.sleep(1)
+    89                                             
+    90                                             # For CPU profiling
+    91  49.933594 MiB   0.000000 MiB           1       profiler = cProfile.Profile()
+    92  49.937500 MiB   0.003906 MiB           1       profiler.enable()
+    93                                             
+    94  50.738281 MiB   0.800781 MiB           1       drone.send_spefic()
+    95                                         
+    96                                             # Stop CPU profiling
+    97  50.738281 MiB   0.000000 MiB           1       profiler.disable()
+    98  50.882812 MiB   0.144531 MiB           1       profiler.print_stats(sort='cumulative')
+
+Line #    Mem usage    Increment  Occurrences   Line Contents
+=============================================================
+    81  49.882812 MiB  49.882812 MiB           1   @profile(precision=6)
+    82                                         def main():   
+    83  49.933594 MiB   0.050781 MiB           1       drone = Drone('tcp:127.0.0.1:14550')
+    84  49.933594 MiB   0.000000 MiB           1       time.sleep(1)
+    85  49.949219 MiB   0.015625 MiB           1       drone.send_heartbeat()
+    86  49.953125 MiB   0.003906 MiB           1       time.sleep(1)
+    87  49.953125 MiB   0.000000 MiB           1       drone.send_heartbeat()
+    88  49.953125 MiB   0.000000 MiB           1       time.sleep(1)
+    89                                             
+    90                                             # For CPU profiling
+    91  49.953125 MiB   0.000000 MiB           1       profiler = cProfile.Profile()
+    92  49.957031 MiB   0.003906 MiB           1       profiler.enable()
+    93                                             
+    94  50.703125 MiB   0.746094 MiB           1       drone.send_spefic()
+    95                                         
+    96                                             # Stop CPU profiling
+    97  50.703125 MiB   0.000000 MiB           1       profiler.disable()
+    98  50.843750 MiB   0.140625 MiB           1       profiler.print_stats(sort='cumulative')
+
+Line #    Mem usage    Increment  Occurrences   Line Contents
+=============================================================
+    81  49.964844 MiB  49.964844 MiB           1   @profile(precision=6)
+    82                                         def main():   
+    83  50.015625 MiB   0.050781 MiB           1       drone = Drone('tcp:127.0.0.1:14550')
+    84  50.015625 MiB   0.000000 MiB           1       time.sleep(1)
+    85  50.031250 MiB   0.015625 MiB           1       drone.send_heartbeat()
+    86  50.035156 MiB   0.003906 MiB           1       time.sleep(1)
+    87  50.035156 MiB   0.000000 MiB           1       drone.send_heartbeat()
+    88  50.035156 MiB   0.000000 MiB           1       time.sleep(1)
+    89                                             
+    90                                             # For CPU profiling
+    91  50.035156 MiB   0.000000 MiB           1       profiler = cProfile.Profile()
+    92  50.039062 MiB   0.003906 MiB           1       profiler.enable()
+    93                                             
+    94  50.640625 MiB   0.601562 MiB           1       drone.send_spefic()
+    95                                         
+    96                                             # Stop CPU profiling
+    97  50.640625 MiB   0.000000 MiB           1       profiler.disable()
+    98  50.812500 MiB   0.171875 MiB           1       profiler.print_stats(sort='cumulative')
+
+Line #    Mem usage    Increment  Occurrences   Line Contents
+=============================================================
+    81  50.105469 MiB  50.105469 MiB           1   @profile(precision=6)
+    82                                         def main():   
+    83  50.156250 MiB   0.050781 MiB           1       drone = Drone('tcp:127.0.0.1:14550')
+    84  50.156250 MiB   0.000000 MiB           1       time.sleep(1)
+    85  50.171875 MiB   0.015625 MiB           1       drone.send_heartbeat()
+    86  50.175781 MiB   0.003906 MiB           1       time.sleep(1)
+    87  50.175781 MiB   0.000000 MiB           1       drone.send_heartbeat()
+    88  50.175781 MiB   0.000000 MiB           1       time.sleep(1)
+    89                                             
+    90                                             # For CPU profiling
+    91  50.175781 MiB   0.000000 MiB           1       profiler = cProfile.Profile()
+    92  50.179688 MiB   0.003906 MiB           1       profiler.enable()
+    93                                             
+    94  50.953125 MiB   0.773438 MiB           1       drone.send_spefic()
+    95                                         
+    96                                             # Stop CPU profiling
+    97  50.953125 MiB   0.000000 MiB           1       profiler.disable()
+    98  51.097656 MiB   0.144531 MiB           1       profiler.print_stats(sort='cumulative')
+
+Line #    Mem usage    Increment  Occurrences   Line Contents
+=============================================================
+    81  49.906250 MiB  49.906250 MiB           1   @profile(precision=6)
+    82                                         def main():   
+    83  49.957031 MiB   0.050781 MiB           1       drone = Drone('tcp:127.0.0.1:14550')
+    84  49.957031 MiB   0.000000 MiB           1       time.sleep(1)
+    85  49.972656 MiB   0.015625 MiB           1       drone.send_heartbeat()
+    86  49.976562 MiB   0.003906 MiB           1       time.sleep(1)
+    87  49.976562 MiB   0.000000 MiB           1       drone.send_heartbeat()
+    88  49.976562 MiB   0.000000 MiB           1       time.sleep(1)
+    89                                             
+    90                                             # For CPU profiling
+    91  49.976562 MiB   0.000000 MiB           1       profiler = cProfile.Profile()
+    92  49.980469 MiB   0.003906 MiB           1       profiler.enable()
+    93                                             
+    94  50.769531 MiB   0.789062 MiB           1       drone.send_spefic()
+    95                                         
+    96                                             # Stop CPU profiling
+    97  50.769531 MiB   0.000000 MiB           1       profiler.disable()
+    98  50.910156 MiB   0.140625 MiB           1       profiler.print_stats(sort='cumulative')
+
+Line #    Mem usage    Increment  Occurrences   Line Contents
+=============================================================
+    81  49.968750 MiB  49.968750 MiB           1   @profile(precision=6)
+    82                                         def main():   
+    83  50.019531 MiB   0.050781 MiB           1       drone = Drone('tcp:127.0.0.1:14550')
+    84  50.019531 MiB   0.000000 MiB           1       time.sleep(1)
+    85  50.035156 MiB   0.015625 MiB           1       drone.send_heartbeat()
+    86  50.039062 MiB   0.003906 MiB           1       time.sleep(1)
+    87  50.039062 MiB   0.000000 MiB           1       drone.send_heartbeat()
+    88  50.039062 MiB   0.000000 MiB           1       time.sleep(1)
+    89                                             
+    90                                             # For CPU profiling
+    91  50.039062 MiB   0.000000 MiB           1       profiler = cProfile.Profile()
+    92  50.042969 MiB   0.003906 MiB           1       profiler.enable()
+    93                                             
+    94  50.835938 MiB   0.792969 MiB           1       drone.send_spefic()
+    95                                         
+    96                                             # Stop CPU profiling
+    97  50.835938 MiB   0.000000 MiB           1       profiler.disable()
+    98  50.976562 MiB   0.140625 MiB           1       profiler.print_stats(sort='cumulative')
+
+
