@@ -1,27 +1,25 @@
 class Solution:
-    def topKFrequent(nums, k):
+    def top_k_frequent(nums, k):
         
-        dict_num = {}
-        
-        for num in nums:
-            if num not in dict_num.keys():
-                dict_num[num] = 1
-            else:
-                dict_num[num] += 1
-        
-        dict_num_swapped = {value: key for key, value in dict_num.items()}
-        
-        list_num = []
-        for key in sorted(dict_num_swapped.keys(), reverse=True):
-            list_num.append(dict_num_swapped[key])
-            k -= 1
-            if k == 0:
-                break
-                
+        count = {}
+        freq = [[] for i in range(len(nums) + 1)]
 
-        return list_num
+        for n in nums:
+            count[n] = 1 + count.get(n, 0)
+        for n, c in count.items():
+            freq[c].append(n)
+
+        res = []
+        for i in range(len(freq) - 1, 0, -1):
+            for n in freq[i]:
+                res.append(n)
+                if len(res) == k:
+                    return res
+
+    
         
-nums = [1,2]
+nums = [1,1,1,2,2,3]
 k = 2
 
-sol = Solution.topKFrequent(nums, k)
+sol = Solution.top_k_frequent(nums, k)
+print(sol)
