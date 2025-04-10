@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>planner2</name>
+  <version>0.1.2</version>
+  <description>
+    The Instinct2 package provides tools for autonomous drone navigation in indoor environments, such as warehouses, without relying on GPS. Built on ROS 2, it includes local and global planners for obstacle avoidance, leveraging data from stereo cameras and sensors. Instinct2 is an evolution of the original Instinct package, tailored for modern inventory management and real-time control tasks.
+  </description>
+
+  <maintainer email="lyskov@dolunts.com">Your Name</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>px4_msgs</depend>
+  <depend>sensor_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>tf2</depend>
+  <depend>tf2_ros</depend>
+  <depend>tf2_geometry_msgs</depend>
+  <depend>tf2_sensor_msgs</depend>
+  <depend>isaac_ros_depth_image_proc</depend>
+  <depend>pcl_conversions</depend>
+  <depend>libpcl-all-dev</depend>
+  <depend>pcl_ros</depend>
+  <depend>eigen3_cmake_module</depend>
+  <depend>Eigen3</depend>
+
+  <exec_depend>mavros</exec_depend>
+  <exec_depend>gscam2</exec_depend>
+  <exec_depend>image_proc</exec_depend>
+  <exec_depend>stereo_image_proc</exec_depend>
+  <exec_depend>isaac_ros_stereo_image_proc</exec_depend>
+
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
