@@ -1,5 +1,5 @@
 class Solution:
-    def twoSum(nums, target): 
+    def two_sum(nums, target): 
         dict_num = {}
         for ii in range(len(nums)):
             if target - nums[ii] not in dict_num.keys():
@@ -11,4 +11,4 @@ class Solution:
 nums = [3,2,4]
 target = 6
 
-sol = Solution.twoSum(nums, target)
+sol = Solution.two_sum(nums, target)
