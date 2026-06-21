@@ -60,7 +60,7 @@ export default async function TasksPage({ searchParams }: Props) {
         </div>
       ) : (
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
-          {tasks.map((task) => (
+          {tasks.map((task: (typeof tasks)[number]) => (
             <TaskCard
               key={task.id}
               task={{

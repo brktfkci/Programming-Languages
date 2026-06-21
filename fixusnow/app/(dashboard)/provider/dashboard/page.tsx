@@ -85,7 +85,7 @@ export default async function ProviderDashboard() {
         </div>
       ) : (
         <div className="space-y-4">
-          {applications.map((app) => (
+          {applications.map((app: (typeof applications)[number]) => (
             <Link key={app.id} href={`/tasks/${app.task.id}`}>
               <div className="bg-white border border-gray-200 rounded-xl p-5 hover:shadow-md hover:border-blue-300 transition-all flex items-center justify-between gap-4">
                 <div className="flex-1 min-w-0">
